@@ -53,12 +53,18 @@ body {
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
-	width: 374px;
-	height: 329px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	z-index: -1;
+}
+
+::before {
+	width: 374px;
+	height: 329px;
+}
+.picture.left {
+	width: 100%;
 }
 
 .picture {
@@ -90,9 +96,7 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
+
 .title{
 	text-align: center;
 	padding-block: 2em;
