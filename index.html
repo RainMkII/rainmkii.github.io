@@ -4,11 +4,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Site nina Carducci</title>
-
+	<!--Cette section -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<meta name="description"
 		content="nina Carducci passioné de photographies vous propose c'est service, avec des photo de qualité sans précédent.">
+	<meta itemprop="image" content="">
 	<meta property="og:title" content="Nina Carducci">
 	<meta property="og:description"
 		content="Bonjour je m'appelle ninca Carducci photographe professionnel, vous trouverez sur mes réseaux sociaux mes meilleurs clicher">
@@ -19,6 +19,54 @@
 		content="Bonjour je m'appelle ninca Carducci photographe professionnel, vous trouverez sur mes réseaux sociaux mes meilleurs clicher">
 	<meta name="twitter:image" content="https://voyage-onirique.com/2018/09/26/appareil-photo/">
 	<meta name="twitter:card" content="summary_large_image">
+
+	<!-- balise pour les prix du site et ses activité-->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Offer",
+			"name": "Shooting photo",
+			"price": "350 EUR"
+		}
+		</script>
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Offer",
+			"name": "Retouches",
+			"price": "50 EUR"
+		}
+		</script>
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Offer",
+			"name": "Album photo",
+			"price": "400 EUR"
+		}
+		</script>
+	<!--Ici la balise pour l'adresse et autre information-->.
+	<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci",
+		  "image": "/images/nina.png",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"postalCode": "33200",
+			"addressLocality": "Bordeaux",
+			"addressCountry": "France"
+		  },
+		  "telephone": "05 56 67 78 89",
+		  "openingHours": "Mo-Fr 10:00-19:00"
+		}
+		</script>
+
+	<!-- Ici la section pour tout les script pour le bon fonctionnement du site est c'est application-->
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +75,6 @@
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
 	<link rel="canonical" href="index.html">
-
 	<script async src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -37,7 +84,7 @@
 
 <body>
 	<header class="top-header">
-		<h1 class="name">Nina Carducci, photographe à Bordeaux</h1>
+		<h1 class="name">Nina Carducci</h1>
 		<nav class="nav">
 			<ul>
 				<li><a href="#about">À propos</a></li>
